@@ -1,0 +1,665 @@
+@media all and (max-width:1310px)
+{
+    // -------HEADER---------
+    header
+    {
+        >div:nth-child(5)
+        {
+            >div:nth-child(6)
+            {
+                >img:nth-child(2) 
+                {
+                    height: 50px;
+                }
+                >img:nth-child(3) 
+                {
+                    height: 60px;
+                }
+                >img:nth-child(4) 
+                {
+                    height: 45px;
+                }
+                >img:nth-child(5) 
+                {
+                    height: 55px;
+                }
+                >img:nth-child(6) 
+                {
+                    height: 53px;
+                }
+                >img:nth-child(7) 
+                {
+                    height: 50px;
+                }
+                >img:nth-child(8) 
+                {
+                    height: 45px;
+                }
+                >img:nth-child(9) 
+                {
+                    height: 60px;
+                }
+            }
+        }
+    }
+    // -------PORTFOLIO----------
+    #portfolio
+    {
+        >p:nth-child(2)
+        {
+            margin-left: 55px;
+        }
+        >p:nth-child(4)
+        {
+            width: 92%;
+            margin-top: -27px;
+        }
+    }
+    // -------Contact----------
+    #contact
+    {
+        >div:first-child
+        {
+            >div:nth-child(2) 
+            {
+                >div:nth-child(3) 
+                {
+                    >p:last-child
+                    {
+                        margin-top: 115px;
+                    }
+                }
+            }
+            > p:nth-child(3)
+            {
+                width: 85%;
+            }
+        }
+        >div:last-child
+        {
+            >p 
+            {
+                margin-left: 16%;
+            }
+        }
+    }
+}
+//----------------------------------------
+@media all and (max-width:1170px)
+{
+    //-------HEADER---------
+    header
+    {
+        >div:nth-child(5)
+        {
+            >div:nth-child(6)
+            {
+                margin-left: 10%;
+
+                >img:nth-child(2) 
+                {
+                    height: 40px;
+                }
+                >img:nth-child(3) 
+                {
+                    height: 50px;
+                }
+                >img:nth-child(4) 
+                {
+                    height: 35px;
+                }
+                >img:nth-child(5) 
+                {
+                    height: 45px;
+                }
+                >img:nth-child(6) 
+                {
+                    height: 43px;
+                }
+                >img:nth-child(7) 
+                {
+                    height: 40px;
+                }
+                >img:nth-child(8) 
+                {
+                    height: 35px;
+                }
+                >img:nth-child(9) 
+                {
+                    height: 50px;
+                }
+            }
+        }
+    }
+    // -------PORTFOLIO----------
+    #portfolio
+    {
+        >p:nth-child(2)
+        {
+            margin-left: 40px;
+        }
+    }
+}
+//----------------------------------------
+@media all and (max-width:1050px)
+{
+    //-------BODY---------
+    body 
+    {
+        margin-left: 0px;
+    }
+    //-------HEADER---------
+    header
+    {
+    // NAV
+        nav
+        {
+            width: 100%;
+            height: 100px;
+            position: fixed; 
+
+            >div:first-child
+            {
+                width: 100%;
+                height: 100%;
+                @include flex;
+                font-family: 'cinzel';
+                margin-top: 0px;
+                font-size: 0.3em;
+                margin-bottom: auto;
+
+                img
+                {
+                    width: 55px;
+                    margin-bottom: 0.5em;
+                }
+                >h2
+                {
+                    letter-spacing: 2px;
+                    margin-top: 2px;
+                    margin-bottom: 2px;
+                }
+            }
+            >p:nth-child(2)
+            {
+                display: none;
+            }
+            div:nth-child(3)
+            {
+                height: 100vh;
+                width: 100vw;
+                background-color: rgb(82, 81, 81);
+                position:absolute;
+                top: 100px;
+                display: none;
+                z-index: 100;
+
+                >div:last-child
+                {
+                    @include flex;
+                    margin-top: 10em;
+                    
+                    >a:first-child 
+                    {
+                        font-size: 1.5em;
+                        color: white;
+
+                        &:hover 
+                        {
+                            color: $orange;
+                        }
+                    }
+                    a:last-child
+                    {
+                        font-family: "roboto";
+                        color: $orange;
+                        font-size: 1em;
+                        margin-top: 0.5em;
+
+                        &:hover 
+                        {
+                            color: $purple;
+                        }
+                    }
+                }
+            }
+            ul 
+            {
+                li 
+                {
+                    width: 100%;
+                    border-top: 1px solid $greytag;
+                    @include flex;
+
+                    &:last-child
+                    {
+                        border-bottom: 1px solid $greytag;
+                    }
+                }
+            }
+            div:nth-child(4)
+            {
+                display: none;
+            }
+            >p:nth-child(5)
+            {
+                display: none;
+            }
+            >div:last-child
+            {
+                display: block;
+                position: absolute;
+                font-size: 2.5em;
+                top: 30px;
+                right: 70px;
+
+                &:hover
+                {
+                    cursor: pointer;
+                    color: $orange;
+                }
+            }
+        }
+        //--PRESENTATION-----
+        >p:nth-child(2) 
+        {
+            margin-top: 110px;
+        }
+        >div:nth-child(5) 
+        {
+            margin-left: 0em;
+            margin-top: 2em;
+            @include flex;
+            margin-left: auto;
+            margin-right: auto;
+
+            >p:nth-child(3) 
+            {
+                margin-left: 0px;
+                margin-top: 15px;
+            }
+            >div:nth-child(5) 
+            {
+                > div:last-child 
+                {
+                    text-align: center;
+
+                    >p:nth-child(2)
+                    {
+                        text-align: center;
+                        display: block;
+                        font-size: 0.8em;
+
+                        &:hover
+                        {
+                            cursor: pointer;
+                            color: $orange;
+                        }
+                    }
+                    #txtdropdown
+                    {
+                        display: none;
+
+                        >i 
+                        {
+                            display: block;
+                            &:hover
+                            {
+                                cursor: pointer;
+                                color: $orange;
+                                
+                            }  
+                        }
+                    }
+                }
+                > div:nth-child(7) 
+                {
+
+                    > p:first-child 
+                    {
+                        text-align: center;
+                    }
+                }
+            }
+            
+        }
+        >p:last-child 
+        {
+            margin-top: 20px;
+        }
+    }
+    // -------CONTACT----------
+    #contact
+    {
+        >div:last-child
+        {
+            >p 
+            {
+                margin-left: 18%;
+                margin-top: 25%;
+            }
+        }
+    }
+}
+//----------------------------------------
+@media all and (max-width:870px)
+{
+    //-------HEADER---------
+    header
+    {
+        > div:nth-child(5) 
+        {
+            >div:nth-child(5) 
+            {
+                > div:last-child 
+                {
+                    font-size: 19px;
+                }
+            }
+            >div:nth-child(6)
+            {
+                width: 80%;
+                flex-wrap: wrap;
+                justify-content: center;
+
+                >p:first-child
+                {
+                    order: 1;
+                }
+                >img:nth-child(2) 
+                {
+                    order: 3;
+                }
+                >img:nth-child(3) 
+                {
+                    order: 4;
+                }
+                >img:nth-child(4) 
+                {
+                    order: 8; 
+                }
+                >img:nth-child(5) 
+                {
+                    order: 2;
+                }
+                >img:nth-child(6) 
+                {
+                    order: 5;
+                }
+                >img:nth-child(7) 
+                {
+                    order: 9;
+                }
+                >img:nth-child(8) 
+                {
+                    order: 6;
+                }
+                >img:nth-child(9) 
+                {
+                    order: 7;
+                }
+                >p:last-child
+                {
+                    position: relative;
+                    left: 470px;
+                    top: 0;
+                    z-index: -1;
+                }
+            } 
+        }
+    }
+}
+//----------------------------------------
+@media all and (max-width:824px)
+{   
+    //-------HEADER---------
+    header
+    {
+        > div:nth-child(5) 
+        {
+            >div:nth-child(5) 
+            {
+                > div:last-child 
+                {
+                    font-size: 19px;
+                }
+            }
+            >div:nth-child(6)
+            {
+                
+                >p:last-child
+                {
+                    position: relative;
+                    left: 410px;
+                    top: 0;
+                }
+            } 
+            >div:nth-child(7)
+            {
+                @include flex ($just: space-between ,$dir: row);
+                margin-left: 45px;
+                margin-top: 25px;
+            }
+        }
+    }
+    //-------PORTFOLIO---------
+    #portfolio
+    {
+        > div:nth-child(3) 
+        {
+            > div:nth-child(3) 
+            {
+                >img:nth-child(1)
+                {
+                    width: 100%;
+                    margin-bottom: 2%;
+                }
+                >img:nth-child(2)
+                {
+                    width: 100%;
+                    margin-bottom: 2%;
+                }
+                >img:nth-child(3)
+                {
+                    width: 100%;
+                    margin-bottom: 2%;
+                }
+                >img:nth-child(4)
+                {
+                    display: none;
+                }
+                >img:nth-child(5)
+                {
+                    display: none;
+                }
+                >img:nth-child(6)
+                {
+                    width: 100%;
+                    margin-bottom: 2%;
+                }
+                >img:nth-child(7)
+                {
+                    width: 100%;
+                    margin-bottom: 2%;
+                }
+                >img:nth-child(8)
+                {
+                    display: none;
+                }
+                
+            }
+        }
+    }
+    #portfolio > p:nth-child(2)
+    {
+        display: none;
+    }
+    #portfolio > p:nth-child(4)
+    {
+        display: none;
+    }
+    //-------CONTACT---------
+    #contact
+    {
+        flex-direction: column;
+
+        >div:first-child
+        {
+            width: 100%;
+
+            >p:first-child 
+            {
+                margin-top: 6em;
+            }
+            > div:nth-child(2) 
+            {
+
+                > div:nth-child(3) 
+                {
+                    > p:last-child
+                    {
+                        margin-top: 60px;
+                    }
+                }
+            }
+            >p:nth-child(4)
+            {
+                display: none;
+            }
+            >p:nth-child(5)
+            {
+                display: none;
+            }
+            >p:nth-child(6)
+            {
+                display: none;
+            }
+        }
+        >div:last-child
+        {
+            width: 100%;
+            
+            >p
+            {
+                margin-left: 39%;
+                margin-top: 2%;
+
+            }
+            div
+            {
+                display: block;
+                width: 100%;
+                margin-top: 3em;
+
+                >a:first-child
+                {
+                    display: flex;
+                    justify-content: center;
+                    color: white;
+                    font-size: 1.8em;
+
+                    &:hover
+                    {
+                        color: $orange;
+                    }
+                }
+                >p:nth-child(2)
+                {
+                    margin-left: 65px;
+                    margin-top: 2em;
+                }
+                >p:nth-child(3)
+                {
+                    margin-top: 8px;
+                    margin-left: 38px;
+                }
+                >p:nth-child(4)
+                {
+                    margin-left: 10px;
+                    padding-top: 10px;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+    #contact > div:first-child > div:nth-child(2) form
+    {
+        flex-direction: column;
+        width: 80%;
+    }
+    #contact > div:first-child > div:nth-child(2) form input:first-child
+    {
+        margin-right: 0px;
+        width: 50%;
+    }
+    #contact > div:first-child > div:nth-child(2) form input:nth-child(2)
+    {
+        width: 80%;
+    }
+}
+//----------------------------------------
+@media all and (max-width:720px)
+{
+    .balise
+    {
+        display: none;
+    }
+    #contact > div:first-child > p:nth-child(3)
+    {
+        display: none;
+    }
+    #contact > div:first-child > div:nth-child(2) form > div:nth-child(5)
+    {
+        margin-bottom: 4em;
+    }
+    .first
+    {
+        display: block;
+        color: transparent;
+    }
+    header > div:nth-child(5)
+    {
+        width: 85%;
+        margin-top: 5em;
+    }
+    header > div:nth-child(5) > div:nth-child(7) > p:first-child
+    {
+        margin-bottom: 2em;
+    }
+    #contact > div:last-child div > a:first-child 
+    {
+        margin-bottom: 1em;
+    }
+}
+//----------------------------------------
+@media all and (max-width:550px)
+{
+    header nav > div:last-child
+    {
+        right: 40px;
+        font-size: 2em;
+    }
+}
+//----------------------------------------
+@media all and (max-width:400px)
+{
+    header > div:nth-child(5) > div:first-child h1 
+    {
+        font-size: 2.8em;
+        text-align: center;
+    }
+    header > div:nth-child(5) > div:nth-child(2) > h2
+    {
+        text-align: center;
+    }
+    header > div:nth-child(5) 
+    {
+        margin-top: 5em;
+    }
+    #contact > div:last-child > p
+    {
+        margin-left: 28%;
+        margin-top: 8%;
+        font-size: 2em;
+    }
+}
