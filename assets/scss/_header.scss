@@ -127,7 +127,8 @@ header
         }
         >div:nth-child(6)
         {
-            @include flex ( $just: flex-start,  $dir: row);
+            @include flex ( $dir: row);
+            flex-wrap: wrap;
             margin-top: 30px;
             margin-left: 10%;
 
@@ -213,6 +214,30 @@ header
                 }
             }
             >img:nth-child(9) 
+            {
+                height: 65px;
+                margin-right: 20px;
+                padding-bottom: 0em;
+                transition: all 0.3s ease-out;
+
+                &:hover
+                {
+                    transform: scale( 1.3 );
+                }
+            }
+            >img:nth-child(10) 
+            {
+                height: 70px;
+                margin-right: 20px;
+                padding-bottom: 1em;
+                transition: all 0.3s ease-out;
+
+                &:hover
+                {
+                    transform: scale( 1.3 );
+                }
+            }
+            >img:nth-child(11) 
             {
                 height: 70px;
                 margin-right: 20px;

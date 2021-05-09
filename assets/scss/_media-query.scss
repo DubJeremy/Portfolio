@@ -39,6 +39,14 @@
                 {
                     height: 60px;
                 }
+                >img:nth-child(10) 
+                {
+                    height: 60px;
+                }
+                >img:nth-child(11) 
+                {
+                    height: 60px;
+                }
             }
         }
     }
@@ -125,6 +133,14 @@
                     height: 35px;
                 }
                 >img:nth-child(9) 
+                {
+                    height: 50px;
+                }
+                >img:nth-child(10) 
+                {
+                    height: 50px;
+                }
+                >img:nth-child(11) 
                 {
                     height: 50px;
                 }
@@ -344,11 +360,23 @@
 //----------------------------------------
 @media all and (max-width:870px)
 {
+    .balise
+    {
+        display: none;
+    }
+    .cursor
+    {
+        display: none;
+    }
     //-------HEADER---------
+
     header
     {
         > div:nth-child(5) 
         {
+            width: 85%;
+            margin-top: 8em;
+
             >div:nth-child(5) 
             {
                 > div:last-child 
@@ -362,42 +390,6 @@
                 flex-wrap: wrap;
                 justify-content: center;
 
-                >p:first-child
-                {
-                    order: 1;
-                }
-                >img:nth-child(2) 
-                {
-                    order: 3;
-                }
-                >img:nth-child(3) 
-                {
-                    order: 4;
-                }
-                >img:nth-child(4) 
-                {
-                    order: 8; 
-                }
-                >img:nth-child(5) 
-                {
-                    order: 2;
-                }
-                >img:nth-child(6) 
-                {
-                    order: 5;
-                }
-                >img:nth-child(7) 
-                {
-                    order: 9;
-                }
-                >img:nth-child(8) 
-                {
-                    order: 6;
-                }
-                >img:nth-child(9) 
-                {
-                    order: 7;
-                }
                 >p:last-child
                 {
                     position: relative;
@@ -600,10 +592,7 @@
 //----------------------------------------
 @media all and (max-width:720px)
 {
-    .balise
-    {
-        display: none;
-    }
+    
     #contact > div:first-child > p:nth-child(3)
     {
         display: none;
