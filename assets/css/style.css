@@ -356,6 +356,14 @@ nav > p:nth-child(2) {
 nav div:nth-child(3) > div:last-child {
   display: none;
 }
+nav div:nth-child(3) > div:last-child a:nth-child(2) {
+  font-size: 1em;
+  color: white;
+  font-family: "robotob";
+}
+nav div:nth-child(3) > div:last-child a:nth-child(2):hover {
+  color: #ffc457;
+}
 nav ul {
   margin-top: 220px;
   width: 100%;
@@ -1008,6 +1016,22 @@ nav > div:last-child {
     display: none;
   }
 
+  header > div:nth-child(5) > div:nth-child(7) > p:first-child {
+    margin-bottom: 2em;
+  }
+
+  #contact > div:last-child div > a:first-child {
+    margin-bottom: 1em;
+  }
+
+  #contact > div:first-child > p:nth-child(3) {
+    display: none;
+  }
+
+  #contact > div:first-child > div:nth-child(2) form > div:nth-child(5) {
+    margin-bottom: 4em;
+  }
+
   header > div:nth-child(5) {
     width: 85%;
     margin-top: 8em;
@@ -1154,14 +1178,6 @@ nav > div:last-child {
   }
 }
 @media all and (max-width: 720px) {
-  #contact > div:first-child > p:nth-child(3) {
-    display: none;
-  }
-
-  #contact > div:first-child > div:nth-child(2) form > div:nth-child(5) {
-    margin-bottom: 4em;
-  }
-
   .first {
     display: block;
     color: transparent;
@@ -1185,6 +1201,10 @@ nav > div:last-child {
     right: 40px;
     font-size: 2em;
   }
+
+  header > div:nth-child(5) {
+    margin-top: 0em;
+  }
 }
 @media all and (max-width: 400px) {
   header > div:nth-child(5) > div:first-child h1 {
@@ -1194,10 +1214,6 @@ nav > div:last-child {
 
   header > div:nth-child(5) > div:nth-child(2) > h2 {
     text-align: center;
-  }
-
-  header > div:nth-child(5) {
-    margin-top: 5em;
   }
 
   #contact > div:last-child > p {

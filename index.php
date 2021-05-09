@@ -36,6 +36,7 @@
                     </ul>
                     <div>
                         <a href="https://www.linkedin.com/in/jeremy-dubois-dev/"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="DuboisCV.pdf">CV</a>
                         <a href="mailto:dubois.jeremy33@gmail.com">dubois.jeremy33@gmail.com</a>
                     </div>
                 </div>

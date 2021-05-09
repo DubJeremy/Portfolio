@@ -164,6 +164,7 @@
     {
         margin-left: 0px;
     }
+
     //-------HEADER---------
     header
     {
@@ -357,7 +358,7 @@
         }
     }
 }
-//----------------------------------------
+//----------------------------------------------------------------
 @media all and (max-width:870px)
 {
     .balise
@@ -367,6 +368,22 @@
     .cursor
     {
         display: none;
+    }
+    header > div:nth-child(5) > div:nth-child(7) > p:first-child
+    {
+        margin-bottom: 2em;
+    }
+    #contact > div:last-child div > a:first-child 
+    {
+        margin-bottom: 1em;
+    }
+    #contact > div:first-child > p:nth-child(3)
+    {
+        display: none;
+    }
+    #contact > div:first-child > div:nth-child(2) form > div:nth-child(5)
+    {
+        margin-bottom: 4em;
     }
     //-------HEADER---------
 
@@ -593,14 +610,6 @@
 @media all and (max-width:720px)
 {
     
-    #contact > div:first-child > p:nth-child(3)
-    {
-        display: none;
-    }
-    #contact > div:first-child > div:nth-child(2) form > div:nth-child(5)
-    {
-        margin-bottom: 4em;
-    }
     .first
     {
         display: block;
@@ -628,6 +637,10 @@
         right: 40px;
         font-size: 2em;
     }
+    header > div:nth-child(5)
+    {
+        margin-top: 0em;
+    }
 }
 //----------------------------------------
 @media all and (max-width:400px)
@@ -640,10 +653,6 @@
     header > div:nth-child(5) > div:nth-child(2) > h2
     {
         text-align: center;
-    }
-    header > div:nth-child(5) 
-    {
-        margin-top: 5em;
     }
     #contact > div:last-child > p
     {
