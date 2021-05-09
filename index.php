@@ -41,6 +41,7 @@
                 </div>
                 <div>
                     <a href="https://www.linkedin.com/in/jeremy-dubois-dev/"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="DuboisCV.pdf">CV</a>
                 </div>
                 <p class="balise">
                     &lt;/nav&gt;

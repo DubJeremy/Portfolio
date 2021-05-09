@@ -362,15 +362,20 @@ nav
         @include flex;
         position: absolute;
 
-        >a:first-child 
+        >a
         {
             font-size: 1.5em;
             color: white;
+            font-family: "robotob";
 
             &:hover 
             {
                 color: $orange;
             }
+        }
+        >a:nth-child(2)
+        {
+            font-size: 1em;
         }
     }
     >p:nth-child(5)

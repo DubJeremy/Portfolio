@@ -45,6 +45,15 @@
       $('.cursor').hide('fast');
     });
 
+    $('nav div:nth-child(4)').mouseover(function()
+    {
+      $('.cursor').hide('fast');
+    });
+    $('nav div:nth-child(5)').mouseover(function()
+    {
+      $('.cursor').hide('fast');
+    });
+
 })(jQuery);
 
 const cursor = document.querySelector('.cursor');
