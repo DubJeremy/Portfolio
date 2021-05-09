@@ -39,6 +39,11 @@
 // {
 //   // .animate({left : '+=50px'}, "fast" );
 // });
+//----------------------------------------------------
+    $('nav ul').mouseover(function()
+    {
+      $('.cursor').hide('fast');
+    });
 
 })(jQuery);
 
