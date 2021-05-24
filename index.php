@@ -136,7 +136,6 @@
                     <img src="assets/images/php.png" alt="logo php">
                     <img src="assets/images/symfony-seeklogo.com.svg" alt="logo symphony">
                     <img src="assets/images/mysql.png" alt="logo MySQL">
-                    <img src="assets/images/Java.png" alt="logo Java">
                     <p class="balise">
                         --&gt; 
                     </p>

@@ -21,7 +21,7 @@ if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['subject'
             'Messages' => [
               [
                 'From' => [
-                  'Email' => "jeremy.ah33@hotmail.fr",
+                  'Email' => "jeremy.ah33@gmail.com",
                   'Name' => "Dubois Jeremy"
                 ],
                 'To' => [
